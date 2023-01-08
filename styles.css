@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#FFFFFF;
+}
+
+span {
+	background-color: #white;
+}
+
+#title {
+	font-size:30px;
+	color:black;
+	margin-bottom:0px;
+}
+
+button {
+	margin-top:25px;
+} 
+
+#description {
+	color:black;
+	background-color:#A0A49B;
+	font-size:15px;
+}
+
+.container {
+	background-color:#A0A49B;
+	width:100%;
+	margin:0;
+}
+
+.navbar-brand {
+	font-size:40px;
+}
+
+#drop {
+	border: 3px solid black;
+}
+
+#test{
+	background-color:#FFFFFF;
+	width:100%;
+	}
+
+#test li {
+	border: 1px solid black;
+
+}
+
+#test li a {
+	font-weight: bold;
+	margin:0;
+}
+
+#test li a:hover {
+	background-color:#A0A49B;
+}
+
+#content {
+	background-color:#FFFFFF;
+}
+
+h1 {
+	font-family: "Trebuchet Ms", Helvetica, sans-serif;
+	font-weight: 600;
+}
+
+#content p {
+	background-color:gray;
+	color:black;
+	font-size:15px;
+}
+
+#menu h3 {
+	margin-top:15px;
+	margin-bottom: 40px;
+}
+
+#content h4 {
+	background-color:gray;
+	margin-bottom:0;
+	text-align:center;
+	line-height: 2;
+	font-weight:bold;
+}
+
+@media (min-width: 768px) { 
+	#content {
+		margin:20px 10px 20px 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	#content {
+		margin:20px 80px 20px 80px;}
+	
+	#dropdownMenu1 {
+		float:right;
+	}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
